@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 public class SnippetController {
 
     public SnippetController(){
-        System.out.println("asdasda");
+        System.out.println("Constructor called for SnippetController");
     }
     @GetMapping(value = "/snippet", produces = "application/json")
     public @ResponseBody Long createSnippet(){
